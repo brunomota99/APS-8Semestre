@@ -1,0 +1,161 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* CONFIGURAÇÃO DA PÁGINA */
+* {
+	box-sizing: border-box;}
+body, html {
+	margin: 0; font-family: 'PT Sans', sans-serif;
+	height: 100%;}
+b {
+	font-weight: bold;
+	color: #3382c6;}
+/* CORPO DA PÁGINA */
+#menu {
+	overflow: hidden;
+	transition: 0.4s;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 99;
+	background-color: #fff;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);}
+#menu a {
+	float: left;
+	color: #000;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 550;}
+.logo {
+	margin-left: 2%;}
+.logo img {
+	width: 60px;
+	transition: 0.4s;}
+#menu a:hover {
+	color: #3382c6;
+	transition: 0.4s;
+	border-bottom: 3px solid #3382c6;
+	opacity: 1 !important;}
+#nav {
+	float: right;
+	margin-top: 2%;
+	margin-right: 10px;}
+.rm {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: 20%;}
+.forma {
+	width: 50%;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+.forma a {
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+	background-color: #2eb2ff;
+	border-radius: 5px;
+	box-shadow: 0 9px #0a5784;}
+.forma a:hover {
+	background-color: #1a94db;}
+.forma a:active {
+	box-shadow: 0 4px #1b648e; transform: translateY(5px);}
+
+.forma img {width: 20%;}
+.corpo {
+	width: 80%; /*background-color: #eaefff;*/ 
+	margin: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.4);}
+
+/* INFORMATIVO */
+.informativo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	text-align: center;
+	padding: 10px;
+	border-left: 6px solid #3382c6;
+	box-shadow: 2px 0 2px 0 rgba(0, 0, 0, 0.4);
+	margin-top: 2%;
+	margin-bottom: 2%;
+	background-color: #fff;}
+.informativo h2 {
+	color: #3382c6;}
+.informativo hr {
+	border: none
+	 border-bottom: 3px solid #3382c6;
+	 width: 200px;}
+.informativo img {
+	width: 10%;
+	vertical-align: center;}
+.informativo p {
+	text-align: left;
+	font-size: 18px;}
+
+/* CONTEÚDO */
+.cont {
+	width: 100%;}
+.cont h2 {
+	margin-left: 10px;}
+.paragrafo {
+	font-size: 18px;
+	text-align: justify;
+	width: 50%; display:
+	inline-table; padding: 20px;}
+.direito {
+	float: right;}
+.tabela {
+	width: 100%;
+	text-align: center;
+	display: inline-flex;}
+.coluna {
+	width: 50%;
+	display: inline-table;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	padding: 20px
+	 margin-bottom: 2%;
+	 box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);}
+.coluna:hover {
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);}
+.coluna img {
+	width: 20%;}
+.pc {
+	padding: 20px;
+	font-size: 18px;
+	text-align: justify;}
+
+/* RODAPÉ */
+footer {
+	border-top: 3px solid #99b0ff;
+	padding: 20px;
+	background-color: #606ea0 !important;}
+footer h3 {
+	color: #dadeed;}
+footer p {
+	color: #fff;}
+
+
+/* DISPLAY */
+@media screen and (max-width: 580px) {
+ #menu {padding: 20px 10px !important;}
+ #menu a {float: none; display: block; text-align: left;}
+ #nav {float: none;}
+}

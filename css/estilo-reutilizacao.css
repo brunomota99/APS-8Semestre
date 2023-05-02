@@ -1,0 +1,6 @@
+.bg {background-image: url("../img/wallpaper-reutilizacao.png"); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;}
+.ativo {background-color: #3382c6; border-radius: 4px; color: #fff !important;}
+.corpo p {padding: 20px;}
+.corpo h3 {color: #83bff7; text-align: center;}
+.corpo img {width: 1000px;}
+.corpo hr {border: none; border-bottom: 3px solid #83bff7; width: 400px; float: left; margin-top: -1%; margin-left: 20px; margin-bottom: 2%;}

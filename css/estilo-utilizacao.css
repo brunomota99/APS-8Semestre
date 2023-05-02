@@ -1,0 +1,29 @@
+.bg {
+	background-image: url("../img/wallpaper-utilizacao.jpg"); 
+	height: 100%; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;}
+.ativo {background-color: #3382c6; border-radius: 4px; color: #fff !important;}
+
+
+.infografico h2 {color: #83bff7; text-align: center;}
+.infografico hr {border: none; 
+	border-bottom: 3px solid #83bff7; 
+	width: 400px; float: left; margin-top: -1%; margin-left: 20px; margin-bottom: 2%;}
+.coluna p {color: #83bff7;}
+.cont {}
+.cont p {font-size: 18px; padding-left: 20px; padding-right: 20px; text-align: justify;}
+ul {font-size: 18px;}
+ul li p a {text-decoration: none; color: #83bff7;}
+ul li p a:hover {color: #2eb2ff;}
+.rotulo {width: 100%; display: inline-flex;}
+.rotuloa {width: 50%;}
+.rotuloa p {color: #01ba0b;}
+.rotulob p {color: #ff5c5c;}
+.rotulob {width: 50%;}
+.rotuloa, .rotulob h3 {text-align: center;}
+.hr {color: #ff5c5c;}
+.hg {color: #01ba0b;}
+.aviso {display: block; 
+	margin-left: auto; margin-right: auto; width: 80%; padding: 20px; border: 2px dashed #83bff7; border-radius: 5px; margin-top: 2%;}
